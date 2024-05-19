@@ -345,6 +345,48 @@ padding-right: 20px;
       text-align:center ;
       
     }
+
+    /* Completed tasks*/
+
+    .flex-container6 {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding-right: 20px;
+    background-color:#FFFF47 ;
+    margin-bottom: 100px;
+    }
+
+    .task2 h1{
+        font-size: 25px;
+        margin-bottom: -40px;
+        margin-top:-10px;
+        font-weight: 400;
+        line-height: 1;
+        text-align: left;
+        
+        font-family: "Readex Pro", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style:normal;
+        font-variation-settings: "HEXP" 0; 
+    }
+
+    .task-info{
+        text-align: left;
+    }
+
+.checked{
+    margin-left: 30px;
+}
+
+.day{
+    margin-left: 40px;
+}
     }
       
 
