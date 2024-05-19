@@ -1,0 +1,144 @@
+
+@media screen and (max-width: 768px) {
+
+    body {
+        font-family: 'Reem Kufi', sans-serif;
+    }
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:8%;
+    background-color: #222222;
+    padding-top:15px;
+    padding-bottom:5px;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 35px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex; /* Use flexbox to align icon and text vertically */
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.navbar li a img {
+    width: 33px; 
+    height: 30px; 
+}
+
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom:30px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+
+.flex-container1 {
+    display: flex;
+    justify-content: space-between; /* Items are spaced evenly with space between them */
+    align-items: center; /* Align items vertically in the center */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Adding stroke effect */
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+padding-right: 20px;
+}
+
+
+.text-left h1 {
+  font-size: 25px;
+  margin-bottom: -40px;
+  margin-top:-15px;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: px;
+}
+
+.text-left p {
+    font-size: 15px;
+    margin-left: 80px;
+  }
+
+
+  .image{
+    padding-right:50px;
+  }
+
+  .flex-container2 {
+    display: flex;
+    justify-content: space-between; /* Items are spaced evenly with space between them */
+    align-items: center; /* Align items vertically in the center */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Adding stroke effect */
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+padding-right: 20px;
+}
+
+
+.text-left2 h1 {
+  font-size: 25px;
+  margin-bottom: -40px;
+  margin-top:-20px;
+  font-weight: 400;
+  margin-left:50px;
+}
+
+.text-left2 p {
+    font-size: 15px;
+    margin-left: 80px;
+  }
+
+
+  .image{
+    padding-right:50px;
+  }
+
+  .slides {
+    display: none;
+  }
+  
+  
+.dots-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+}
